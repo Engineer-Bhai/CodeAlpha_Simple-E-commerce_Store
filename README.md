@@ -1,1 +1,1 @@
-﻿# CodeAlpha-Task01-simple-e-commerce-store
+﻿# simple-e-commerce-store
