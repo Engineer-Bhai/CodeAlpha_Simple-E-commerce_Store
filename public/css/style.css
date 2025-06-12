@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2family=Poppins:wght@400;500;600;700&display=swap');
 :root{
     --bg-color:#fff;
-    --container-color:#1e1e2a;
+    --container-color:rgb(161, 245, 116);
     --text-color: #149414;
     --main-color:#fd4646;
 }
@@ -36,7 +36,8 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--container-color);
+    background-color: black;
+    
     box-shadow: 0 1px 4px hsla(0, 0%, 98%, 0.1);
     z-index: 100;
 }
@@ -47,9 +48,9 @@ header{
      padding: 20px 0;
 }
 .logo{
-    font-size: 1.1rem;
-    color: var(--bg-color);
-    font-weight: 600;
+    font-size: 1.9rem;
+    color: white;
+    font-weight: 1600;
 }
 #cart-icon{
     position: relative;
@@ -68,7 +69,7 @@ header{
     height: 20px;
     background: var(--text-color);
     border-radius: 50%;
-    color: white;
+    color: black;
     font-size: 12px;
     font-weight: 500;
     display: flex;
@@ -82,7 +83,8 @@ header{
     width: 360px;
     min-height: 100vh;
     padding: 20px;
-    background: var(--container-color);
+    color:black;
+    background: orchid;
     box-shadow: -2px 0 4px hsl(0, 4%, 15% / 10%);
     transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -100,7 +102,7 @@ header{
   display: flex;  
   justify-content: flex-end;
   margin-top: 1.5rem;
-  border-top: 1px solid var(--text-color);
+  border-top: 1px solid blue;
 }
 .total-title{
    font-size: 1.2rem;
@@ -125,7 +127,7 @@ header{
     font-style: italic;
     font-weight: 500;
     cursor: pointer;
-    color: var(--bg-color);
+    color: black;
 }
 #close-cart{
     position: absolute;
@@ -196,8 +198,8 @@ header{
    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .product-box:hover{
-   background: var(--bg-color); 
-   border: 1px solid #f0f0f0;
+   background: yellow; 
+   border: 1px solid red;
    box-shadow: 0 8px 32px hsla(0.75, 0.82, 0.165, 1);
    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -232,5 +234,5 @@ header{
    cursor: pointer;
 }
 .add-cart:hover{
-    background: hsl(249, 32%, 17%);
+    background: cornflowerblue;
 }
